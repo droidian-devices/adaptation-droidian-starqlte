@@ -1,5 +1,6 @@
 /etc/udev/rules.d
 /etc/apt/sources.list.d
+/etc/phosh
 /usr/bin
 /usr/share/keyrings
 /var/lib/batman
