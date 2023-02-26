@@ -1,6 +1,6 @@
-adaptation-droidian-starqlte (0.0.0+git2023022620062339.12gf68b.main) main; urgency=medium
+adaptation-droidian-starqlte (0.0.0+git2023022620062339.62a56f7.bookworm) main; urgency=medium
 
-  * adapt to starqlte
+  * add board-address for bluetooth
 
- -- fakeshell <fakeshell@bardia.tech>  Sun, 26 Feb 2023 05:56:16 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Sun, 26 Feb 2023 07:13:16 +0330
 

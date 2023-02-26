@@ -11,7 +11,7 @@ Package: adaptation-droidian-starqlte
 Architecture: all
 Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
-         adaptation-lavender-configs,
+         adaptation-starqlte-configs,
 Description: adapatation-starqlte-meta
  lavender api29 adaptation metapackage
 
