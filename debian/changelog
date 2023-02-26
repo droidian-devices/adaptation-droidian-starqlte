@@ -1,6 +1,6 @@
-adaptation-droidian-lavender (0.0.0+git2023012220062339.12gf68b.main) main; urgency=medium
+adaptation-droidian-starqlte (0.0.0+git2023022620062339.12gf68b.main) main; urgency=medium
 
-  * change phosh scaling
+  * adapt to starqlte
 
- -- fakeshell <fakeshell@bardia.tech>  Sun, 22 Jan 2023 08:56:16 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Sun, 26 Feb 2023 05:56:16 +0330
 

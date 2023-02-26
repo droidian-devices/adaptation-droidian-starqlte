@@ -1,0 +1,1 @@
+deb [arch=arm64 signed-by=/usr/share/keyrings/starqlte.gpg] http://mirror.bardia.tech/starqlte bookworm main
