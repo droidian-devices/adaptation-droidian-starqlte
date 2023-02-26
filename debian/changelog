@@ -1,6 +1,6 @@
-adaptation-droidian-starqlte (0.0.0+git2023022620062339.62a56f7.bookworm) main; urgency=medium
+adaptation-droidian-starqlte (0.0.0+git2023022720062339.62a56f7.bookworm) main; urgency=medium
 
-  * add phosh scaling configuration
+  * add audiohal service to use audio.hidl_compat.default.so
 
- -- fakeshell <fakeshell@bardia.tech>  Sun, 26 Feb 2023 07:17:16 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Mon, 27 Feb 2023 00:43:16 +0330
 

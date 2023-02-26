@@ -1,0 +1,14 @@
+[Unit]
+Description=Re enable audio hal
+Before=phosh.service
+After=lxc@android.service
+Depends=lxc@android.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=mount -o bind /system/lib64/hw/audio.hidl_compat.default.so /vendor/lib64/hw/audio.primary.default.so
+ExecStop=umount /vendor/lib64/hw/audio.primary.default.so
+
+[Install]
+WantedBy=graphical.target
