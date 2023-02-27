@@ -7,7 +7,7 @@ Depends=lxc@android.service
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-ExecStart=chown droidian:droidian /sys/devices/platform/soc/soc:i2c@1/i2c-23/23-0059/s2mpb02-led/leds/torch-sec1/
+ExecStart=chown droidian:droidian -R /sys/devices/platform/soc/soc:i2c@1/i2c-23/23-0059/s2mpb02-led/leds/torch-sec1/
 
 [Install]
 WantedBy=graphical.target
