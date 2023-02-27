@@ -1,6 +1,6 @@
-adaptation-droidian-starqlte (0.0.0+git2023022712982339.c870ae8.bookworm) main; urgency=medium
+adaptation-droidian-starqlte (0.0.0+git2023022712982339.d7b0639.bookworm) main; urgency=medium
 
-  * change the permission of flashlight recursively
+  * upstream batman
 
- -- fakeshell <fakeshell@bardia.tech>  Mon, 27 Feb 2023 08:28:16 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Mon, 27 Feb 2023 09:16:16 +0330
 
