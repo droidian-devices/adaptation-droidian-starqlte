@@ -1,6 +1,6 @@
 adaptation-droidian-starqlte (0.0.0+git2023022720062339.62a56f7.bookworm) main; urgency=medium
 
-  * add audiohal service to use audio.hidl_compat.default.so
+  * add flashlight permission systemd service
 
- -- fakeshell <fakeshell@bardia.tech>  Mon, 27 Feb 2023 00:43:16 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Mon, 27 Feb 2023 08:19:16 +0330
 

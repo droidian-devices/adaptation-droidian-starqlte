@@ -6,3 +6,4 @@
 override_dh_installsystemd:
 	dh_installsystemd -padaptation-starqlte-configs --name=batman batman.service --no-start
 	dh_installsystemd -padaptation-starqlte-configs --name=audiohal audiohal.service --no-start
+	dh_installsystemd -padaptation-starqlte-configs --name=flashlight-perm flashlight-perm.service --no-start
