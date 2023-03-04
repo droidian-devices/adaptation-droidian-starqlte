@@ -1,6 +1,6 @@
-adaptation-droidian-starqlte (0.0.0+git2023022712982339.d7b0639.bookworm) main; urgency=medium
+adaptation-droidian-starqlte (0.0.0+git2023030512982339.3679a6c.bookworm) main; urgency=medium
 
-  * upstream batman
+  * rename udev rule
 
- -- fakeshell <fakeshell@bardia.tech>  Mon, 27 Feb 2023 09:16:16 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Sun, 04 Mar 2023 03:12:16 +0330
 
