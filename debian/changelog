@@ -1,6 +1,6 @@
-adaptation-droidian-starqlte (0.0.0+git2023030512982339.3679a6c.bookworm) main; urgency=medium
+adaptation-droidian-starqlte (0.0.0+git2023030512982339.10a2669.bookworm) main; urgency=medium
 
-  * rename udev rule
+  * add preferred-hostname
 
- -- fakeshell <fakeshell@bardia.tech>  Sun, 04 Mar 2023 03:12:16 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Sun, 19 Mar 2023 01:02:16 +0330
 

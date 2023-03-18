@@ -3,5 +3,8 @@
 /etc/phosh
 /usr/bin
 /usr/share/keyrings
+/usr/lib/droidian/device
+/usr/lib/droid-system-overlay/bin
+/usr/lib/droid-vendor-overlay/etc/init/
 /var/lib/batman
 /var/lib/bluetooth
