@@ -12,6 +12,7 @@ Architecture: all
 Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
          adaptation-starqlte-configs,
+         wlr-randr,
 Description: adapatation-starqlte-meta
  lavender api29 adaptation metapackage
 

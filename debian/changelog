@@ -1,6 +1,6 @@
-adaptation-droidian-starqlte (0.0.0+git2023030512982339.10a2669.bookworm) main; urgency=medium
+adaptation-droidian-starqlte (0.0.0+git2023030512982339.3ef7e98.bookworm) main; urgency=medium
 
-  * add preferred-hostname
+  * add wlr-randr as a dependency
 
- -- fakeshell <fakeshell@bardia.tech>  Sun, 19 Mar 2023 01:02:16 +0330
+ -- fakeshell <fakeshell@bardia.tech>  Tue, 21 Mar 2023 22:53:16 +0330
 
