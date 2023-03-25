@@ -3,6 +3,7 @@
 /etc/phosh
 /usr/bin
 /usr/share/keyrings
+/usr/share/glib-2.0/schemas
 /usr/lib/droidian/device
 /usr/lib/droid-system-overlay/bin
 /usr/lib/droid-vendor-overlay/etc/init/
