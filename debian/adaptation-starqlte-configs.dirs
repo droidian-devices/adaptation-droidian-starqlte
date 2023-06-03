@@ -1,8 +1,6 @@
 /etc/udev/rules.d
-/etc/apt/sources.list.d
 /etc/phosh
 /usr/bin
-/usr/share/keyrings
 /usr/share/glib-2.0/schemas
 /usr/lib/droidian/device
 /usr/lib/droid-system-overlay/bin
