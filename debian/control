@@ -13,7 +13,6 @@ Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
          adaptation-starqlte-configs,
          linux-bootimage-samsung-starqlte,
-         batman,
          qt5-cameraplugin-aal,
          qtmultimedia5-examples,
 Description: adapatation-starqlte-meta
