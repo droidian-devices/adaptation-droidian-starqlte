@@ -9,5 +9,4 @@
 /usr/lib/droid-system-overlay/bin
 /usr/lib/droid-vendor-overlay/etc/init
 /usr/lib/systemd/user
-/opt/droidian-sysfs-torch
 /var/lib/bluetooth
