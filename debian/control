@@ -13,8 +13,7 @@ Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
          adaptation-starqlte-configs,
          linux-bootimage-samsung-starqlte,
-         qt5-cameraplugin-aal,
-         qtmultimedia5-examples,
+         droidian-camera,
 Description: adapatation-starqlte-meta
  lavender api29 adaptation metapackage
 

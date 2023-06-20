@@ -2,11 +2,7 @@
 /etc/phosh
 /usr/bin
 /usr/share/glib-2.0/schemas
-/usr/share/applications
-/usr/share/icons
-/usr/share/sounds/camera/click
 /usr/lib/droidian/device
 /usr/lib/droid-system-overlay/bin
 /usr/lib/droid-vendor-overlay/etc/init
-/usr/lib/systemd/user
 /var/lib/bluetooth
