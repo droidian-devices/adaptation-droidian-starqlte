@@ -7,3 +7,4 @@ override_dh_installsystemd:
 	dh_installsystemd -padaptation-starqlte-configs --name=audiohal audiohal.service --no-start
 	dh_installsystemd -padaptation-starqlte-configs --name=flashlight-perm flashlight-perm.service --no-start
 	dh_installsystemd -padaptation-starqlte-configs --name=enable-nfc enable-nfc.service --no-start
+	dh_installsystemd -padaptation-starqlte-configs --name=setup-zram setup-zram.service --no-start
