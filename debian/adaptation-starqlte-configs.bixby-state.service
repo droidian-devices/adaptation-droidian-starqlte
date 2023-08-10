@@ -1,0 +1,8 @@
+[Unit]
+Description=bixby button gesture service
+After=sm.puri.Phosh.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bixby-state
+Restart=always

@@ -1,0 +1,2 @@
+usr/bin/bixby-state
+debian/bixby-state.service /usr/lib/systemd/user/

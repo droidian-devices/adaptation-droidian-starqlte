@@ -2,7 +2,7 @@ Source: adaptation-droidian-starqlte
 Maintainer: Bardia Moshiri
 Section: metapackages
 Priority: optional
-Build-Depends: debhelper (>= 10)
+Build-Depends: debhelper, gcc, inotify-tools, libwayland-dev, libxkbcommon-dev
 Standards-Version: 4.5.0.3
 Vcs-Browser: https://github.com/droidian-devices/adaptation-droidian-starqlte
 Vcs-Git: https://github.com/droidian-devices/adaptation-droidian-starqlte.git
@@ -14,10 +14,19 @@ Depends: ${misc:Depends},
          adaptation-starqlte-configs,
          linux-bootimage-samsung-starqlte,
          droidian-camera,
+         inotify-tools,
 Description: adapatation-starqlte-meta
- lavender api29 adaptation metapackage
+ starqlte api29 adaptation metapackage
 
 Package: adaptation-starqlte-configs
 Architecture: all
 Depends: ${misc:Depends},
+Provides: bixby-button
+Conflicts: bixby-button
 Description: starqlte's adaptation configs
+
+Package: bixby-state
+Architecture: any
+Depends: ${misc:Depends},
+Conflicts: adaptation-starqlte-configs
+Description: bixby button gesture service

@@ -3,6 +3,15 @@
 %:
 	dh $@
 
+override_dh_auto_build:
+	gcc -o usr/bin/bixby-state src/bixby-state.c src/virtual-keyboard-unstable-v1-protocol.c -lwayland-client -lxkbcommon
+
+override_dh_auto_install:
+	cp debian/adaptation-starqlte-configs.bixby-state.service debian/bixby-state.service
+
+	dh_auto_install
+	install -D -m 0644 debian/adaptation-starqlte-configs.bixby-state.service debian/adaptation-starqlte-configs/usr/lib/systemd/user/bixby-state.service
+
 override_dh_installsystemd:
 	dh_installsystemd -padaptation-starqlte-configs --name=audiohal audiohal.service --no-start
 	dh_installsystemd -padaptation-starqlte-configs --name=flashlight-perm flashlight-perm.service --no-start
