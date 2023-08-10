@@ -8,7 +8,7 @@ Vcs-Browser: https://github.com/droidian-devices/adaptation-droidian-starqlte
 Vcs-Git: https://github.com/droidian-devices/adaptation-droidian-starqlte.git
 
 Package: adaptation-droidian-starqlte
-Architecture: all
+Architecture: arm64
 Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
          adaptation-starqlte-configs,
@@ -19,7 +19,7 @@ Description: adapatation-starqlte-meta
  starqlte api29 adaptation metapackage
 
 Package: adaptation-starqlte-configs
-Architecture: all
+Architecture: arm64
 Depends: ${misc:Depends},
 Provides: bixby-button
 Conflicts: bixby-button
