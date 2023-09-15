@@ -1,0 +1,14 @@
+[Unit]
+Description=hide cursor
+After=phosh.service
+Requires=phosh.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+# FIXME: we shouldn't just randomly wait for nothing, lazy solution but works for now
+ExecStartPre=sleep 10
+ExecStart=/usr/bin/hide-mouse
+
+[Install]
+WantedBy=graphical.target

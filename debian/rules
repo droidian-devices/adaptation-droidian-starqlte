@@ -5,6 +5,7 @@
 
 override_dh_auto_build:
 	gcc -o usr/bin/bixby-state src/bixby-state.c src/virtual-keyboard-unstable-v1-protocol.c -lwayland-client -lxkbcommon
+	gcc -o usr/bin/hide-mouse src/hide-mouse.c
 
 override_dh_auto_install:
 	cp debian/adaptation-starqlte-configs.bixby-state.service debian/bixby-state.service
@@ -17,3 +18,4 @@ override_dh_installsystemd:
 	dh_installsystemd -padaptation-starqlte-configs --name=flashlight-perm flashlight-perm.service --no-start
 	dh_installsystemd -padaptation-starqlte-configs --name=enable-nfc enable-nfc.service --no-start
 	dh_installsystemd -padaptation-starqlte-configs --name=setup-zram setup-zram.service --no-start
+	dh_installsystemd -padaptation-starqlte-configs --name=hide-mouse hide-mouse.service --no-start
