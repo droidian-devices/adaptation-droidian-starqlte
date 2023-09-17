@@ -19,3 +19,4 @@ override_dh_installsystemd:
 	dh_installsystemd -padaptation-starqlte-configs --name=enable-nfc enable-nfc.service --no-start
 	dh_installsystemd -padaptation-starqlte-configs --name=setup-zram setup-zram.service --no-start
 	dh_installsystemd -padaptation-starqlte-configs --name=hide-mouse hide-mouse.service --no-start
+	dh_installsystemd -padaptation-starqlte-configs --name=droidian-perf droidian-perf.service --no-start
