@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# 2G
-size=$((2 * 1024 * 1024 * 1024))
+# 2.5G
+size=$((2560 * 1024 * 1024))
 
 sudo modprobe zram
 
@@ -24,3 +24,7 @@ sudo mkswap $unused_device
 sudo swapon $unused_device
 
 swapon --show
+
+echo 200 > /proc/sys/vm/swappiness
+
+echo 0 > /proc/sys/vm/page-cluster
