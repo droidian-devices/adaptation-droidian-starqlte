@@ -3,6 +3,7 @@
 /usr/bin
 /usr/share/glib-2.0/schemas
 /usr/lib/droidian/device
-/usr/lib/droid-system-overlay/bin
+/usr/lib/droid-system-overlay/etc/init
+/usr/lib/droid-vendor-overlay/bin
 /usr/lib/droid-vendor-overlay/etc/init
 /var/lib/bluetooth
