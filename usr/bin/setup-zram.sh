@@ -26,5 +26,9 @@ sudo swapon $unused_device
 swapon --show
 
 echo 200 > /proc/sys/vm/swappiness
-
 echo 0 > /proc/sys/vm/page-cluster
+echo 29620 > /proc/sys/vm/min_free_kbytes 29620
+echo 200 > /proc/sys/vm/vfs_cache_pressure
+echo 5 > /proc/sys/vm/dirty_background_ratio
+echo 40 > /proc/sys/vm/dirty_ratio
+echo 16384 > /proc/sys/vm/admin_reserve_kbytes
