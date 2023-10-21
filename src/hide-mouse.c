@@ -43,8 +43,8 @@ int main(void) {
    sleep(1);
 
    /* Move the cursor to the bottom left */
-   emit(fd, EV_REL, REL_X, -10000);  // A large negative value to move cursor to the far left
-   emit(fd, EV_REL, REL_Y, 10000);   // A large positive value to move cursor down
+   emit(fd, EV_REL, REL_X, -30000);  // A large negative value to move cursor to the far left
+   emit(fd, EV_REL, REL_Y, 30000);   // A large positive value to move cursor down
    emit(fd, EV_SYN, SYN_REPORT, 0);
 
    sleep(1);
