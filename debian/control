@@ -30,3 +30,9 @@ Architecture: any
 Depends: ${misc:Depends},
 Conflicts: adaptation-starqlte-configs
 Description: bixby button gesture service
+
+Package: hide-mouse
+Architecture: any
+Depends: ${misc:Depends},
+Conflicts: adaptation-starqlte-configs
+Description: hide mouse

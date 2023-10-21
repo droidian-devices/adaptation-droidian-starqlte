@@ -1,0 +1,1 @@
+/usr/lib/systemd/system/hide-mouse.service /etc/systemd/system/graphical.target.wants/hide-mouse.service

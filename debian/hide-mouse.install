@@ -1,0 +1,2 @@
+usr/bin/hide-mouse
+debian/hide-mouse.service /usr/lib/systemd/system/

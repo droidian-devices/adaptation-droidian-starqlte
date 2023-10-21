@@ -9,6 +9,7 @@ override_dh_auto_build:
 
 override_dh_auto_install:
 	cp debian/adaptation-starqlte-configs.bixby-state.service debian/bixby-state.service
+	cp debian/adaptation-starqlte-configs.hide-mouse.service debian/hide-mouse.service
 
 	dh_auto_install
 	install -D -m 0644 debian/adaptation-starqlte-configs.bixby-state.service debian/adaptation-starqlte-configs/usr/lib/systemd/user/bixby-state.service
