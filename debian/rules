@@ -15,7 +15,6 @@ override_dh_auto_install:
 	install -D -m 0644 debian/adaptation-starqlte-configs.bixby-state.service debian/adaptation-starqlte-configs/usr/lib/systemd/user/bixby-state.service
 
 override_dh_installsystemd:
-	dh_installsystemd -padaptation-starqlte-configs --name=audiohal audiohal.service --no-start
 	dh_installsystemd -padaptation-starqlte-configs --name=flashlight-perm flashlight-perm.service --no-start
 	dh_installsystemd -padaptation-starqlte-configs --name=enable-nfc enable-nfc.service --no-start
 	dh_installsystemd -padaptation-starqlte-configs --name=setup-zram setup-zram.service --no-start
