@@ -1,6 +1,4 @@
 /usr/lib/systemd/user/bixby-state.service /usr/lib/systemd/user/gnome-session.target.wants/bixby-state.service
-/vendor/lib64/egl/eglSubDriverAndroid.so /usr/lib/droid-vendor-overlay/lib64/eglSubDriverAndroid.so
 /vendor/lib64/egl/libGLESv2_adreno.so /usr/lib/droid-vendor-overlay/lib64/libGLESv2_adreno.so
-/vendor/lib/egl/eglSubDriverAndroid.so /usr/lib/droid-vendor-overlay/lib/eglSubDriverAndroid.so
 /vendor/lib/egl/libGLESv2_adreno.so /usr/lib/droid-vendor-overlay/lib/libGLESv2_adreno.so
 /dev/null /etc/systemd/system/systemd-coredump.socket
